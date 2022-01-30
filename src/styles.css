@@ -2,7 +2,7 @@
   --primary-teal: #34626c;
   --primary-dark-blue: #11324d;
   --primary-accent-font-color: #c1cfc0;
-  --accent-color: #93B5C6
+  --accent-color: #93b5c6;
   --background-teal: rgba(121, 180, 183, 0.8);
   --background-blue: rgba(52, 98, 108, 0.7);
 }
@@ -10,3 +10,22 @@
 /* font-family: 'Arimo', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 64.63px;
+  font-weight: 700;
+  line-height: 86px;
+  color: var(--primary-teal);
+}
+h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-size: 36.35px;
+  line-height: 41px;
+}
+p {
+  font-family: "Arimo", sans-serif;
+  font-weight: normal;
+  font-size: 20.2px;
+  line-height: 23px;
+}
