@@ -29,3 +29,9 @@ p {
   font-size: 20.2px;
   line-height: 23px;
 }
+.navbar {
+  background-color: var(--primary-teal);
+}
+.navbar-dark .navbar-brand {
+  color: var(--primary-accent-font-color);
+}
