@@ -1,0 +1,12 @@
+:root {
+  --primary-teal: #34626c;
+  --primary-dark-blue: #11324d;
+  --primary-accent-font-color: #c1cfc0;
+  --accent-color: #93B5C6
+  --background-teal: rgba(121, 180, 183, 0.8);
+  --background-blue: rgba(52, 98, 108, 0.7);
+}
+
+/* font-family: 'Arimo', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
