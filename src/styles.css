@@ -10,6 +10,7 @@
 /* font-family: 'Arimo', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
+
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 64.63px;
@@ -29,9 +30,61 @@ p {
   font-size: 20.2px;
   line-height: 23px;
 }
+footer {
+  background-color: var(--background-teal);
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .navbar {
   background-color: var(--primary-teal);
 }
 .navbar-dark .navbar-brand {
   color: var(--primary-accent-font-color);
+}
+
+.secondary-link {
+  color: var(--primary-dark-blue);
+  background-color: var(--accent-color);
+  font-family: "Arimo", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid var(--primary-dark-blue);
+  border-radius: 4px;
+  padding: 15px 20px;
+
+  margin: 0 auto;
+}
+
+.enquiry-footer-section {
+  background-color: var(--primary-teal);
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 20px;
+}
+.enquiry-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 86px;
+  color: var(--accent-color);
+}
+.contact-footer-section {
+  text-align: center;
+  margin-top: 20px;
+}
+.email-link {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 30px;
+}
+.icons {
+  max-width: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline;
 }
