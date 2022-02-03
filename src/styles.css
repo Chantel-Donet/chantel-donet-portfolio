@@ -28,7 +28,6 @@ p {
   font-family: "Arimo", sans-serif;
   font-weight: normal;
   font-size: 18px;
-  text-align: center;
 }
 footer {
   background-color: var(--background-teal);
@@ -90,13 +89,13 @@ footer {
   overflow: hidden;
   margin: 0 auto;
 }
+.projects p {
+  text-align: center;
+}
 .card {
   margin: 0 auto;
 }
 
-.about-me-content p {
-  text-align: left;
-}
 .portfolio h1 {
   color: whitesmoke;
 }
@@ -111,9 +110,7 @@ footer {
 .project-info {
   text-align: left;
 }
-.project-info p {
-  text-align: left;
-}
+
 .enquiry-footer-section {
   background-color: var(--primary-teal);
   display: block;
