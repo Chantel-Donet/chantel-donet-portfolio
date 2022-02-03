@@ -7,10 +7,6 @@
   --background-blue: rgba(52, 98, 108, 0.7);
 }
 
-/* font-family: 'Arimo', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif; */
-
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 64.63px;
@@ -71,11 +67,14 @@ footer {
 .navbar-dark .navbar-brand {
   color: var(--primary-accent-font-color);
 }
-.hero {
+.page-heading {
   padding-top: 100px;
   padding-bottom: 50px;
-  text-align: center;
+  padding: 100px 0 50px 40px;
   background-color: var(--background-teal);
+}
+.hero {
+  text-align: center;
 }
 .hero p {
   max-width: 90%;
@@ -94,12 +93,7 @@ footer {
 .card {
   margin: 0 auto;
 }
-.about-me-content {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  padding: 100px 0 50px 40px;
-  background-color: var(--background-teal);
-}
+
 .about-me-content p {
   text-align: left;
 }
