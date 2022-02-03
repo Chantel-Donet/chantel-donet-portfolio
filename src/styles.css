@@ -17,7 +17,7 @@ h1 {
   font-weight: 700;
   line-height: 70px;
   color: var(--primary-teal);
-  text-align: center;
+
   padding: 20px;
 }
 h2 {
@@ -86,6 +86,15 @@ footer {
 }
 .card {
   margin: 0 auto;
+}
+.about-me-content {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding: 100px 0 50px 40px;
+  background-color: var(--background-teal);
+}
+.about-me-content p {
+  text-align: left;
 }
 
 .enquiry-footer-section {
