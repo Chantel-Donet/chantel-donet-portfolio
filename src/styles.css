@@ -49,8 +49,7 @@ footer {
   text-align: center;
   border: 1px solid var(--primary-dark-blue);
   border-radius: 4px;
-  padding: 15px 20px;
-
+  padding: 12px 18px;
   margin: 0 auto;
 }
 .secondary-link {
@@ -62,7 +61,7 @@ footer {
   text-align: center;
   border: 1px solid var(--primary-dark-blue);
   border-radius: 4px;
-  padding: 15px 20px;
+  padding: 12px 18px;
 
   margin: 0 auto;
 }
@@ -83,6 +82,14 @@ footer {
   display: block;
   margin: 0 auto;
   padding: 20px;
+}
+.image-cropper {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 .card {
   margin: 0 auto;
