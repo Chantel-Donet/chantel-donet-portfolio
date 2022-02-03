@@ -97,7 +97,23 @@ footer {
 .about-me-content p {
   text-align: left;
 }
-
+.portfolio h1 {
+  color: whitesmoke;
+}
+.row img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.weather-app-project {
+  background-color: var(--background-teal);
+}
+.project-info {
+  text-align: left;
+}
+.project-info p {
+  text-align: left;
+}
 .enquiry-footer-section {
   background-color: var(--primary-teal);
   display: block;
