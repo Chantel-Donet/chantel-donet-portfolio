@@ -15,20 +15,20 @@ h1 {
   font-family: "Playfair Display", serif;
   font-size: 64.63px;
   font-weight: 700;
-  line-height: 86px;
+  line-height: 70px;
   color: var(--primary-teal);
+  padding: 20px;
 }
 h2 {
   font-family: "Arimo", sans-serif;
   font-weight: 700;
-  font-size: 36.35px;
+  font-size: 30px;
   line-height: 41px;
 }
 p {
   font-family: "Arimo", sans-serif;
   font-weight: normal;
-  font-size: 20.2px;
-  line-height: 23px;
+  font-size: 18px;
 }
 footer {
   background-color: var(--background-teal);
@@ -43,7 +43,31 @@ footer {
 .navbar-dark .navbar-brand {
   color: var(--primary-accent-font-color);
 }
+.hero {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: var(--background-teal);
+}
+.hero p {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+.primary-link {
+  color: var(--primary-accent-font-color);
+  background-color: var(--primary-dark-blue);
+  font-family: "Arimo", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid var(--primary-dark-blue);
+  border-radius: 4px;
+  padding: 15px 20px;
 
+  margin: 0 auto;
+}
 .secondary-link {
   color: var(--primary-dark-blue);
   background-color: var(--accent-color);
