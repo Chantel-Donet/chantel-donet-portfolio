@@ -13,7 +13,6 @@ h1 {
   font-weight: 700;
   line-height: 70px;
   color: var(--primary-teal);
-
   padding: 20px;
 }
 h2 {
@@ -98,19 +97,34 @@ footer {
 
 .portfolio h1 {
   color: whitesmoke;
+  text-align: center;
 }
 .row img {
   display: block;
   margin: 0 auto;
-  padding-top: 50px;
 }
-.weather-app-project {
+.project-frame-primary {
   background-color: var(--background-teal);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.project-frame-secondary {
+  background-color: var(--background-blue);
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .project-info {
   text-align: left;
 }
 
+.project-image {
+  border: 1px solid darkslategrey;
+  border-radius: 4px;
+  max-width: 300px;
+}
+.project-image img {
+  display: flex;
+}
 .enquiry-footer-section {
   background-color: var(--primary-teal);
   display: block;
