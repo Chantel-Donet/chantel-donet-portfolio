@@ -6,6 +6,9 @@
   --background-teal: rgba(121, 180, 183, 0.8);
   --background-blue: rgba(52, 98, 108, 0.7);
 }
+body {
+  background-color: var(--background-teal);
+}
 
 h1 {
   font-family: "Playfair Display", serif;
@@ -93,6 +96,14 @@ footer {
 }
 .card {
   margin: 0 auto;
+}
+.about-me-content h1 {
+  padding-bottom: 0px;
+}
+.about-me-image {
+  max-height: 400px;
+  border: 1px solid none;
+  border-radius: 2px;
 }
 
 .portfolio h1 {
