@@ -83,6 +83,7 @@ footer {
   margin: 0 auto;
   padding: 20px;
 }
+
 .image-cropper {
   border: 1px solid black;
   border-radius: 50%;
@@ -91,9 +92,7 @@ footer {
   overflow: hidden;
   margin: 0 auto;
 }
-.projects p {
-  text-align: center;
-}
+
 .card {
   margin: 0 auto;
 }
