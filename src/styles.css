@@ -12,7 +12,7 @@ body {
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-size: 64.63px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 70px;
   color: var(--primary-teal);
@@ -49,8 +49,11 @@ footer {
   padding: 12px 18px;
   margin: 0 auto;
 }
+.primary-link:hover {
+  color: whitesmoke;
+}
 .secondary-link {
-  color: var(--primary-dark-blue);
+  color: black;
   background-color: var(--accent-color);
   font-family: "Arimo", sans-serif;
   font-size: 18px;
@@ -59,8 +62,10 @@ footer {
   border: 1px solid var(--primary-dark-blue);
   border-radius: 4px;
   padding: 12px 18px;
-
   margin: 0 auto;
+}
+.secondary-link:hover {
+  color: var(--primary-dark-blue);
 }
 .navbar {
   background-color: var(--primary-teal);
@@ -69,8 +74,6 @@ footer {
   color: var(--primary-accent-font-color);
 }
 .page-heading {
-  padding-top: 100px;
-  padding-bottom: 50px;
   padding: 100px 0 50px 40px;
   background-color: var(--background-teal);
 }
@@ -135,6 +138,9 @@ footer {
 .project-image img {
   display: flex;
 }
+.github-repository-link {
+  color: navy;
+}
 .enquiry-footer-section {
   background-color: var(--primary-teal);
   display: block;
@@ -157,7 +163,7 @@ footer {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: black;
-  font-size: 30px;
+  font-size: 28px;
 }
 .icons {
   max-width: 70px;
