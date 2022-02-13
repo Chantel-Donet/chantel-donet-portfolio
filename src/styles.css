@@ -74,7 +74,7 @@ footer {
   color: var(--primary-accent-font-color);
 }
 .page-heading {
-  padding: 100px 0 50px 40px;
+  padding: 100px 50px 50px 50px;
   background-color: var(--background-teal);
 }
 .hero {
