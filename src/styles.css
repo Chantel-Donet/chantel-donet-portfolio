@@ -148,7 +148,6 @@ footer {
   background-color: var(--primary-teal);
   display: block;
   margin: 0 auto;
-
   padding: 20px;
 }
 .enquiry-heading {
@@ -194,12 +193,16 @@ footer {
   .about-me-image {
     max-width: 216px;
   }
-  .project-thumbnail-img {
-  }
+
   .card-body {
     text-align: center;
   }
   .project-info {
+    text-align: center;
+  }
+}
+@media (max-width: 540px) {
+  .about-me-content {
     text-align: center;
   }
 }
